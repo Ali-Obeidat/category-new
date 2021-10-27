@@ -245,7 +245,7 @@ h2 {
   border-radius: 10px;
   z-index: 10;
   background-color: white;
-  width: 400px;
+  width: 500px;
   max-width: 60%;
   height: 600px;
   background-color: #fcecdd;
@@ -380,4 +380,50 @@ footer .container .social-icon a i {
 
 footer .container .social-icon a i:hover {
   font-size: 28px;
+}
+@media (max-width: 991.8px) {
+  .first-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #f99821;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 600px;
+    max-width: 60%;
+    height: 600px;
+    background-color: #fcecdd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 630px) {
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #f99821;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 600px;
+    max-width: 60%;
+    height: 600px;
+    background-color: #fcecdd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
 }
