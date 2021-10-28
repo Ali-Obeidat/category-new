@@ -14,6 +14,7 @@ body {
 
 .navbar-brand {
   width: 120px;
+  height: 120px;
 }
 
 .navbar-nav > .nav-item:first-child .nav-link,
@@ -201,20 +202,20 @@ h2 {
 .Html,
 .css,
 .js {
-  width: 35%;
+  width: 25%;
 }
 .Html img,
 .css img,
 .js img {
   width: 200px;
   height: 250px;
-  border-radius: 50%;
   cursor: pointer;
 }
 .Html p,
 .css p,
 .js p {
   padding-top: 20px;
+  cursor: pointer;
 }
 
 .Html-p {
@@ -272,6 +273,7 @@ h2 {
   font-size: larger;
   font-weight: bold;
   color: #f99821;
+  padding-bottom: 25px;
 }
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
@@ -300,7 +302,7 @@ h2 {
   border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 
@@ -380,6 +382,10 @@ footer .container .social-icon a i {
 
 footer .container .social-icon a i:hover {
   font-size: 28px;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
 }
 @media (max-width: 991.8px) {
   .first-box {
